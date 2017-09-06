@@ -1,101 +1,260 @@
 <!DOCTYPE html>
-<html>
-<title>LMK</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="css.css">
-<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
-<style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "playfair", sans-serif;}
-body, html {
-    height: 100%;
-    color: #777;
-    line-height: 1.8;
-}
+<html lang="en">
 
-.bgimg-1, .bgimg-2, .bgimg-3 {
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+  <head>
 
-.bgimg-1 {
-    background-image: url("coffee.jpg");
-    min-height: 100%;
-}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-.bgimg-2 {
-    background-image: url("");
-    min-height: 400px;
-}
+    <title>Kenneth</title>
 
-.bgimg-3 {
-    background-image: url("");
-    min-height: 400px;
-}
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-.-wide {letter-spacing: 10px;}
-.-hover-opacity {cursor: pointer;}
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 
-@media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3 {
-        background-attachment: scroll;
-    }
-}
-</style>
-<body>
-  <nav class="-sidebar -bar-block -small -hide-small -center">
-    <img src="LMK.png" style="width:100%">
-    <a href="#" class="-bar-item -button -padding-large -black">
-      <i class="fa fa-home -xxlarge"></i>
-      <p>HOME</p>
-    </a>
-    <a href="#about" class="-bar-item -button -padding-large -hover-black">
-      <i class="fa fa-user -xxlarge"></i>
-      <p>ABOUT</p>
-    </a>
-    <a href="#photos" class="-bar-item -button -padding-large -hover-black">
-      <i class="fa fa-eye -xxlarge"></i>
-      <p>PORTFOLIO</p>
-    </a>
-    <a href="#contact" class="-bar-item -button -padding-large -hover-black">
-      <i class="fa fa-envelope -xxlarge"></i>
-      <p>CONTACT</p>
-    </a>
-  </nav>
-</nav>
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
-<div class="-top -hide-large -hide-medium" id="myNavbar">
-  <div class="-bar -black -opacity -hover-opacity-off -center -small">
-    <a href="#" class="-bar-item -button" style="width:25% !important">HOME</a>
-    <a href="#about" class="-bar-item -button" style="width:25% !important">ABOUT</a>
-    <a href="#photos" class="-bar-item -button" style="width:25% !important">PORTFOLIO</a>
-    <a href="#contact" class="-bar-item -button" style="width:25% !important">CONTACT</a>
-  </div>
-</div>
+    <link href="css/creative.min.css" rel="stylesheet">
 
-<div class="bgimg-1 -display-container -opacity-min" id="home">
-  <div class="-display-middle" style="white-space:nowrap;">
-    <span class="-center -padding-large -black -xlarge -wide -animate-opacity"><span class="-hide-small">WELCOME</span>
-  </div>
-</div>
+  </head>
 
-<div class="-content -container -padding-64" id="about">
-  <h3 class="-center">ABOUT ME</h3>
-  <p class="-center"><em></em></p>
-  <p></p>
-  <div class="-row">
-    <div class="-col m6 -center -padding-large">
-      <p><b><i class="fa fa-user -margin-right"></i></b></p><br>
-      <img src="" class="-round -image -opacity -hover-opacity-off" alt="" width="500" height="333">
+  <body id="page-top">
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top ">Lim, Mark Kenneth</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="masthead">
+      <div class="header-content">
+        <div class="header-content-inner">
+          <h1 id="homeHeading">Hey! I'm Kenneth </br> and Welcome to my page</h1>
+          <hr>
+          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">About me</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="bg-primary" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-white">About me</br></h2>
+            <hr class="light">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-1 col-md-6 text-center">
+            <div class="service-box">
+            </div>
+          </div>
+            <img class="img-fluid" src="img/profile.jpg" alt="">
+            <div class="col-lg-6 mx-auto text-center">
+            <p class="text-faded"></br>Hello there! My name is Mark Kenneth Lim, twenty-three years of age, an aspiring developer, and a barista. I love programming because it's a continuous learning process and experience. I use Ruby, HTML, CSS, Rails, Javascript, and a little on Java. I love having fun, learning new things, traveling and adventures so just call me and I'll be there. </p>
+            <a class="btn btn-default btn-xl js-scroll-trigger" href="#portfolio">Portfolio!</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">My Portfolio</h2>
+            <hr class="primary">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box">
+              <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
+              <h3>Ruby</h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box">
+              <i class="fa fa-4x fa-html5 text-primary sr-icons"></i>
+              <h3>HTML5</h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box">
+              <i class="fa fa-4x fa-css3 text-primary sr-icons"></i>
+              <h3>CSS</h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box">
+              <i class="fa fa-4x fa-heartbeat text-primary sr-icons"></i>
+              <h3>LOVE</h3>
+              <p class="text-muted">I made this with love!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+      <div class="container-fluid">
+        <div class="row no-gutter popup-gallery">
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+
+                  </div>
+                  <div class="project-name">
+                    My website
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+
+                  </div>
+                  <div class="project-name">
+                    My blog
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+
+                  </div>
+                  <div class="project-name">
+                      Zen garden
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                  </div>
+                  <div class="project-name">
+                    FriqRent
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                  </div>
+                  <div class="project-name">
+                    Park Now!
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                  </div>
+                  <div class="project-name">
+                    Order your food
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="call-to-action bg-dark">
+      <div class="container text-center">
+        <h2>More projects!</h2>
+        <a class="btn btn-default btn-xl sr-button" href="https://github.com/KennethLim119">Click here!</a>
+      </div>
     </div>
 
-<div class="bgimg-2 -display-container -opacity-min">
-  <div class="-display-middle">
-  </div>
-</div>
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading">Contact details</h2>
+            <hr class="primary">
+            <p>Want to know more about me? Contact me through the links below. I look forward to hearing from you soon.
+</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 ml-auto text-center">
+            <a href="https://github.com/KennethLim119"><i class="fa fa-github fa-3x sr-contact"></i></a>
+          </div>
+          <div class="col-lg-3 ml-auto text-center">
+            <a href="https://www.linkedin.com/in/mark-kenneth-lim-098b1813b/"><i class="fa fa-linkedin-square fa-3x sr-contact"></i></a>
+          </div>
+          <div class="col-lg-3 mr-auto text-center">
+              <a href="google"><i class="fa fa-google fa-3x sr-contact"></i></a>
+          </div>
+          <div class="col-lg-3 mr-auto text-center">
+              <a href="https://www.facebook.com/mark.lim.9412"><i class="fa fa-facebook-square fa-3x sr-contact"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="js/creative.min.js"></script>
 
+  </body>
 
-</body>
 </html>
